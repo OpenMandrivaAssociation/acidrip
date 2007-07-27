@@ -1,13 +1,14 @@
 Summary:	Simple GUI for MEncoder
 Name:		acidrip
 Version:	0.14
-Release:	%mkrel 6
+Release:	%mkrel 7
 Source:		http://prdownloads.sourceforge.net/acidrip/%{name}-%{version}.tar.bz2
 URL:		http://untrepid.com/acidrip
 License:	GPL
 Group:		Video
 Patch0:		%{name}-0.14-xvid_options.patch
 Patch1:		%{name}-0.14-mencoder.patch
+Patch2:		%{name}-0.14-gtk2.patch
 BuildRequires:	mencoder
 BuildRequires:	lsdvd
 BuildRequires:	perl-Gtk2
@@ -39,6 +40,7 @@ a number of ways:
 %setup -q
 %patch0 -p1
 %patch1 -p1
+%patch2 -p1
 
 perl -p -i -e 's/mp3lame/copy/g' Makefile.PL
 
