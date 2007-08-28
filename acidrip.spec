@@ -57,7 +57,6 @@ rm -rf %{buildroot}
 mkdir -p %{buildroot}%{_datadir}/applications
 cat > %{buildroot}%{_datadir}/applications/mandriva-%{name}.desktop << EOF
 [Desktop Entry]
-Encoding=UTF-8
 Name=AcidRip
 Comment=Video ripping and conversion
 Exec=%{name}
