@@ -20,7 +20,6 @@ Provides:	perl(AcidRip::acidrip) perl(AcidRip::DVDInfo)
 Provides:	perl(AcidRip::interface) perl(AcidRip::signals)
 Provides:	perl(AcidRip::messages)
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 AcidRip is a Gtk::Perl application for ripping and encoding DVD's. It neatly
