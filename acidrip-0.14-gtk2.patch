@@ -1,0 +1,18 @@
+diff -Naur acidrip-0.14/AcidRip/interface.pm acidrip-0.14.tpg/AcidRip/interface.pm
+--- acidrip-0.14/AcidRip/interface.pm	2004-07-25 14:00:48.000000000 +0000
++++ acidrip-0.14.tpg/AcidRip/interface.pm	2007-07-27 14:30:26.000000000 +0000
+@@ -1,6 +1,5 @@
+ use Gtk2;
+ use Glib;
+-init Gtk2;
+ use File::Basename;
+ 
+ sub get_widget_name ($) {
+@@ -49,6 +48,7 @@
+ }
+ 
+ sub new {
++  init Gtk2;
+   my $class = shift;
+ 
+   my $widgets;
