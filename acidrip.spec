@@ -1,7 +1,7 @@
 Summary:	Simple GUI for MEncoder
 Name:		acidrip
 Version:	0.14
-Release:	%mkrel 8
+Release:	9
 Source:		http://prdownloads.sourceforge.net/acidrip/%{name}-%{version}.tar.bz2
 URL:		http://untrepid.com/acidrip
 License:	GPL
