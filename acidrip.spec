@@ -9,6 +9,7 @@ Group:		Video
 Patch0:		%{name}-0.14-xvid_options.patch
 Patch1:		%{name}-0.14-mencoder.patch
 Patch2:		%{name}-0.14-gtk2.patch
+BuildRequires:	make
 BuildRequires:	mencoder
 BuildRequires:	lsdvd
 BuildRequires:	perl-Gtk2
